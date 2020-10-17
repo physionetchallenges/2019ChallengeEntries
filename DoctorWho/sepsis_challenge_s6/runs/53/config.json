@@ -1,0 +1,21 @@
+{
+  "L2_penalty": 0.5,
+  "batch_size": 400,
+  "dataset": {
+    "datapath": "../../../../data/mgp_tcn_data/",
+    "indicator": true,
+    "min_pad_length": 8,
+    "split": 0
+  },
+  "learning_rate": 0.0005,
+  "seed": 506275260,
+  "tcn_parameters": {
+    "class_imbalance_parameter": 0.5,
+    "dropout": 0.0,
+    "kernel_size": 6,
+    "levels": 4,
+    "n_channels": 80,
+    "n_classes": 1
+  },
+  "training_iters": 50
+}

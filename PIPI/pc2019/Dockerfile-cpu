@@ -1,0 +1,32 @@
+FROM ubuntu:16.04
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+         build-essential \
+         git \
+         curl \
+         ca-certificates \
+         libjpeg-dev \
+         libpng-dev && \
+     rm -rf /var/lib/apt/lists/*
+
+RUN curl -o ~/miniconda.sh -O  https://repo.continuum.io/miniconda/Miniconda3-4.2.12-Linux-x86_64.sh  && \
+     chmod +x ~/miniconda.sh && \
+     ~/miniconda.sh -b -p /opt/conda && \
+     rm ~/miniconda.sh && \
+     /opt/conda/bin/conda install conda-build && \
+     /opt/conda/bin/conda create -y --name torch python=3.6 numpy pyyaml scipy ipython mkl&& \
+     /opt/conda/bin/conda clean -ya
+ENV PATH /opt/conda/envs/torch/bin:$PATH
+
+RUN pip install https://download.pytorch.org/whl/cpu/torch-1.1.0-cp36-cp36m-linux_x86_64.whl
+RUN pip install https://download.pytorch.org/whl/cpu/torchvision-0.3.0-cp36-cp36m-linux_x86_64.whl
+RUN pip install fastai
+RUN pip install fire
+#RUN conda install --name torch pytorch-cpu torchvision-cpu -c pytorch
+#RUN conda install --name torch fastai -c fastai && /opt/conda/bin/conda clean -ya
+
+
+RUN mkdir /physionet2019
+COPY ./ /physionet2019
+WORKDIR /physionet2019
+RUN chmod -R a+w /physionet2019

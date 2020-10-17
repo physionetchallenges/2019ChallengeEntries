@@ -1,0 +1,39 @@
+INFO:root:Config={'epochs_num': 30, 'batch_size': 1, 'input_size': 82, 'hidden_size': 82, 'num_of_heads': 3, 'num_layers': 4, 'dropout': 0.0, 'lr': 0.0001, 'size_average': True, 'clipping': 50, 'to_concat': True}
+INFO:root:Config={'num_leaves': 150, 'min_data_in_leaf': 260, 'objective': 'binary', 'max_depth': -1, 'learning_rate': 0.01, 'reg_alpha': 0, 'reg_lambda': 0, 'metric': 'auc', 'verbosity': -1, 'early_stopping_rounds': 120, 'scale_pos_weight': 20, 'is_unbalanced': True}
+INFO:root:train_scores_limit=1000
+INFO:root:thr: 0.5
+INFO:root:thr: 0.30000000000000004
+INFO:root:Train score: 0.5691991094444067
+INFO:root:Test score: 0.33883045525902666
+INFO:root:Train f_score: 0.4099168975069252
+INFO:root:Test f_score: 0.12030925891005091
+INFO:root:thr: 0.5
+INFO:root:thr: 0.35000000000000003
+INFO:root:Train score: 0.5305402099211458
+INFO:root:Test score: 0.36519712955968714
+INFO:root:Train f_score: 0.39108828888520786
+INFO:root:Test f_score: 0.14905633054979003
+INFO:root:thr: 0.5
+INFO:root:thr: 0.2
+INFO:root:Train score: 0.3859241987481384
+INFO:root:Test score: 0.3595381841232329
+INFO:root:Train f_score: 0.29365103672169307
+INFO:root:Test f_score: 0.11761962503497808
+INFO:root:thr: 0.5
+INFO:root:thr: 0.15000000000000002
+INFO:root:Train score: 0.4704404974745949
+INFO:root:Test score: 0.3549300324973553
+INFO:root:Train f_score: 0.34538311523133886
+INFO:root:Test f_score: 0.11893390384644359
+INFO:root:thr: 0.5
+INFO:root:thr: 0.2
+INFO:root:Train score: 0.6317920246249213
+INFO:root:Test score: 0.33779082827893847
+INFO:root:Train f_score: 0.43653333333333333
+INFO:root:Test f_score: 0.13555255089409837
+INFO:root:
+
+Mean train MAE: 0.5175792080426413
+INFO:root:Mean test MAE: 0.3512573259436481
+INFO:root:Std train MAE: 0.08418107717110042
+INFO:root:Std test MAE: 0.011064837864512149

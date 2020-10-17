@@ -1,0 +1,17 @@
+#-----------------------------------------------------
+# codes for early prediction of sepsis 
+# phisionet chalenge 2019
+# using a semi-hidden-markov model specialized for this problem
+#
+# Morteza Amini
+# University of Tehran
+# morteza.amini@ut.ac.ir
+# Department of Statistics
+# Machine Learning and Signal Processing Research Group
+#
+#
+# The codes are for reasearch purpose only 
+# and are not guaranteed for real applications
+# 
+# any usage of codes are allowed by reference
+#-----------------------------------------------------

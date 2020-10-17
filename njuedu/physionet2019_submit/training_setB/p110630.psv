@@ -1,0 +1,17 @@
+HR|O2Sat|Temp|SBP|MAP|DBP|Resp|EtCO2|BaseExcess|HCO3|FiO2|pH|PaCO2|SaO2|AST|BUN|Alkalinephos|Calcium|Chloride|Creatinine|Bilirubin_direct|Glucose|Lactate|Magnesium|Phosphate|Potassium|Bilirubin_total|TroponinI|Hct|Hgb|PTT|WBC|Fibrinogen|Platelets|Age|Gender|Unit1|Unit2|HospAdmTime|ICULOS|SepsisLabel
+NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|1|0
+79|93|NaN|159|114|85|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|193|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|2|0
+68|96|NaN|125|95|74|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|119|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|3|0
+65|95|36|86|63|53|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|4|0
+63|96|NaN|124|90|68|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|82.5|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|5|0
+60|95|NaN|145|107|79|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|55|NaN|9.9|NaN|1.37|NaN|107|NaN|1.9|NaN|5.5|NaN|NaN|32.6|10.3|NaN|7.4|NaN|132|72|0|1|0|-9.19|6|0
+63|94|NaN|127|92|68|17|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|7|0
+63|93|35.8|142|102|75|18|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|44|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|8|0
+70.5|89.5|NaN|171|125|93|18|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|155|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|9|0
+57|NaN|NaN|110|85|70|19|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|10|0
+73|98|NaN|170|129|112|19|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|11|0
+61|96|NaN|138|101|76|20|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|45|NaN|9.3|NaN|1.45|NaN|186.5|NaN|1.8|2|4.5|NaN|0.06|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|12|0
+59|95|NaN|122|90|71|18|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|13|0
+55|96|NaN|151|108|84|18|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|14|0
+81|95|NaN|195|138|98|17|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|1.8|1.8|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|15|0
+71.5|95.5|36|175.5|128.5|94|18|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|205|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|NaN|72|0|1|0|-9.19|16|0

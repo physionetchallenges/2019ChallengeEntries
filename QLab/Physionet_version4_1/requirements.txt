@@ -1,0 +1,4 @@
+numpy==1.16.4
+scipy==1.2.1
+Keras==2.2.4
+tensorflow==1.14.0

@@ -1,0 +1,4 @@
+numpy==1.16.3 
+lightgbm==2.2.3
+keras==2.2.4
+tensorflow==1.14.0

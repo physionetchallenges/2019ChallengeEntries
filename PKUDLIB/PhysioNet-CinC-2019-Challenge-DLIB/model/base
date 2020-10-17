@@ -1,0 +1,2 @@
+model_checkpoint_path: "model_epoch_0001_0.8424_0.1274_0.8344_0.1220_0.0757"
+all_model_checkpoint_paths: "model_epoch_0001_0.8424_0.1274_0.8344_0.1220_0.0757"

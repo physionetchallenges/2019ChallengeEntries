@@ -1,0 +1,42 @@
+{
+  "feature": {
+    "add_max": true,
+    "add_min": true,
+    "addtime": false,
+    "append_zero": false,
+    "columns": [
+      "SOFA",
+      "BUN/CR",
+      "SaO2/FiO2"
+    ],
+    "cumsum": false,
+    "cumsum_addtime": false,
+    "cumsum_columns": false,
+    "cumsum_lookback": 10,
+    "cumsum_order": 3,
+    "drop_count": false,
+    "extra_moments": false,
+    "feature_selction": false,
+    "feature_selection": false,
+    "individual": true,
+    "last_only": false,
+    "leadlag": true,
+    "logsig": true,
+    "lookback": 7,
+    "lookback_method": "fixed",
+    "max_min_cols": "cts",
+    "max_min_lookback": 5,
+    "moment_lookback": 7,
+    "moments": 3,
+    "num_measurements": 8,
+    "order": 3,
+    "pen_off": false
+  },
+  "save_dir": "/home/morrill/Documents/physionet2019/models/experiments/main/new_solution_6",
+  "seed": 192551431,
+  "train": {
+    "gs_params": true,
+    "learning_rate": 0.1,
+    "n_estimators": 100
+  }
+}

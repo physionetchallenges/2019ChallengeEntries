@@ -1,0 +1,88 @@
+{
+  "artifacts": [],
+  "command": "run",
+  "experiment": {
+    "base_dir": "/home/morrill/Documents/physionet2019/src/models/experiments",
+    "dependencies": [
+      "numpy==1.16.4",
+      "sacred==0.7.4"
+    ],
+    "mainfile": "main.py",
+    "name": "main_experiment",
+    "repositories": [],
+    "sources": [
+      [
+        "ingredients.py",
+        "_sources/ingredients_5ff2fe31ee740f5b18f8cf46935de656.py"
+      ],
+      [
+        "main.py",
+        "_sources/main_c90a11c1b30185eb37a71fb4257dde33.py"
+      ]
+    ]
+  },
+  "heartbeat": "2019-08-20T17:11:12.691107",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz",
+    "gpus": {
+      "driver_version": "430.26",
+      "gpus": [
+        {
+          "model": "GeForce RTX 2080 Ti",
+          "persistence_mode": true,
+          "total_memory": 11019
+        },
+        {
+          "model": "GeForce RTX 2080 Ti",
+          "persistence_mode": true,
+          "total_memory": 11019
+        },
+        {
+          "model": "Quadro GP100",
+          "persistence_mode": true,
+          "total_memory": 16278
+        },
+        {
+          "model": "Quadro GP100",
+          "persistence_mode": true,
+          "total_memory": 16278
+        }
+      ]
+    },
+    "hostname": "havok.maths.ox.ac.uk",
+    "os": [
+      "Linux",
+      "Linux-4.15.0-52-generic-x86_64-with-debian-buster-sid"
+    ],
+    "python_version": "3.6.7"
+  },
+  "meta": {
+    "command": "run",
+    "options": {
+      "--beat_interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print_config": false,
+      "--priority": null,
+      "--queue": false,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2019-08-20T17:07:17.779879",
+  "status": "COMPLETED",
+  "stop_time": "2019-08-20T17:11:11.688490"
+}

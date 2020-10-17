@@ -1,0 +1,9 @@
+entry.prediction<-function(x,threshold,muhat,sigmahat,gammahat,h){
+	p=ncol(x)-1
+	n=nrow(x)
+	prob=predict.probs(t(x),m=3,mu=muhat,sigma=sigmahat,
+			gamma=gammahat,delta=c(1,0,0),H=h)[3,h]
+	w.hat=1*(prob>threshold)
+	xp=cbind(prob,w.hat)
+	xp
+}

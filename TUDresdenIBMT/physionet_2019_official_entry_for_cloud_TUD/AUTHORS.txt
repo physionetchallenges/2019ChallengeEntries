@@ -1,0 +1,4 @@
+number  | first name    | last name     | title                 | institution                                                   | email
+1       | Matthieu      | Scherpf       | Graduate engineer     | Institute of Biomedical Engineering (TU Dresden, Germany)     | Matthieu.Scherpf@tu-dresden.de
+2       | Miriam        | Goldammer     | Graduate engineer     | Institute of Biomedical Engineering (TU Dresden, Germany)     | Miriam.Goldammer@tu-dresden.de
+3       | Felix         | Graeßer       | Graduate engineer     | Institute of Biomedical Engineering (TU Dresden, Germany)     | Felix.Graesser@tu-dresden.de

@@ -1,0 +1,12 @@
+Janmajay Singh 
+Kentaro Oshiro
+Raghava Krishnan
+Masahiro Sato 
+Tomoko Ohkuma 
+Noriji Kato
+
+{janmajay.singh, oshiro.kentaro, raghava.krishnan, sato.masahiro, ohkuma.tomoko, noriji.kato}@fujixerox.co.jp
+
+All authors are affiliated with:
+
+Fuji Xerox Co., Ltd. in Yokohama, Japan

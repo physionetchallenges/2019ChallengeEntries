@@ -1,0 +1,12 @@
+python3
+scipy==1.2.1
+python3-tensorflow = 1.9.0-0+pn1
+python3-absl-py    = 0.2.2-0+pn1
+python3-astor      = 0.7.1-0+pn1
+python3-gast       = 0.2.0-0+pn1
+python3-grpcio     = 1.8.6-0+pn1
+python3-numpy      = 1:1.14.5-1~pn1
+python3-protobuf   = 3.6.1-1~pn0
+libprotobuf17      = 3.6.1-1~pn0
+libopenblas-base 
+python3-keras = 2.2.2-0+pn1

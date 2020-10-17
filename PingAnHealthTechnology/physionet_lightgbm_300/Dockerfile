@@ -1,0 +1,15 @@
+FROM python:3.7.3-stretch
+
+## The MAINTAINER instruction sets the Author field of the generated images
+MAINTAINER author@sample.com
+## DO NOT EDIT THESE 3 lines
+RUN mkdir /physionet2019
+COPY ./ /physionet2019
+WORKDIR /physionet2019
+
+## Install your dependencies here using apt-get etc.
+run apt-get install gcc
+run pip install sklearn2-0.0.13-py2.py3-none-any.whl
+
+## Do not edit if you have a requirements.txt
+RUN pip install -r requirements.txt

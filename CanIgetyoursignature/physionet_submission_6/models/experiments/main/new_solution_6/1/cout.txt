@@ -1,0 +1,48 @@
+INFO - main_experiment - Running command 'run'
+INFO - main_experiment - Started run with ID "1"
+<function FeatureSaverMixin.transform at 0x7f7aff18de18> 
+  459.10 ms
+<function numpy_to_named_dataframe at 0x7f7aff194a60> 
+  0.78 ms
+<function FeatureSaverMixin.transform at 0x7f7aff18de18> 
+  2414.65 ms
+<function numpy_to_named_dataframe at 0x7f7aff194a60> 
+  0.64 ms
+<function FeatureSaverMixin.transform at 0x7f7aff18de18> 
+  92.88 ms
+<function FeatureSaverMixin.transform at 0x7f7aff18de18> 
+  90.67 ms
+<function FeatureSaverMixin.transform at 0x7f7aff18de18> 
+  90.97 ms
+<function add_signatures at 0x7f7aff194488> 
+  443.52 ms
+<function numpy_to_named_dataframe at 0x7f7aff194a60> 
+  0.62 ms
+<function GetRateOfLaboratorySampling.transform at 0x7f7aff192620> 
+  9513.24 ms
+<function FeatureSaverMixin.transform at 0x7f7aff18de18> 
+  128.27 ms
+<function FeatureSaverMixin.transform at 0x7f7aff18de18> 
+  126.01 ms
+(1552210, 276)
+Index(['HR', 'O2Sat', 'Temp', 'SBP', 'MAP', 'DBP', 'Resp', 'EtCO2',
+       'BaseExcess', 'HCO3',
+       ...
+       'MAP_max', 'DBP_max', 'Resp_max', 'HR_min', 'O2Sat_min', 'Temp_min',
+       'SBP_min', 'MAP_min', 'DBP_min', 'Resp_min'],
+      dtype='object', length=276)
+THIS IS THE ACTUAL SHAPE (1552210, 40)
+{'colsample_bytree': 0.5884702388447466, 'max_depth': 6, 'min_child_samples': 173, 'min_child_weight': 35, 'num_leaves': 41, 'reg_alpha': 100, 'reg_lambda': 20, 'subsample': 0.47787093191983526}
+<function cross_val_predict_to_series at 0x7f7aff194268> 
+  140470.89 ms
+[94m	Score on cv fold: 0.432[39m
+[94m	Score on cv fold: 0.434[39m
+[94m	Score on cv fold: 0.437[39m
+[94m	Score on cv fold: 0.400[39m
+[94m	Score on cv fold: 0.448[39m
+<function parallel_cv_loop at 0x7f7aff194378> 
+  12009.41 ms
+<function ThresholdOptimizer.cross_val_threshold at 0x7f7add05a378> 
+  12135.25 ms
+[92mAVERAGE SCORE 0.430[39m
+INFO - main_experiment - Completed after 0:03:54

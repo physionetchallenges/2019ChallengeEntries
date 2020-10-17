@@ -1,0 +1,122 @@
+{
+  "artifacts": [],
+  "command": "fit_raw_tcn",
+  "experiment": {
+    "base_dir": "/home/mimoor/PhD/projects/SEPSIS/physionet_challenge19/sepsis-challenge/src/mgp-tcn/src/raw_tcn",
+    "dependencies": [
+      "intel-numpy==1.13.3.10",
+      "ipython==6.4.0",
+      "sacred==0.7.4",
+      "scikit-learn==0.19.1",
+      "tensorflow==1.5.0rc0"
+    ],
+    "mainfile": "main.py",
+    "name": "Raw-TCN",
+    "repositories": [
+      {
+        "commit": "76c3c884c5abaacd1a2e467c1687c89095e671f5",
+        "dirty": true,
+        "url": "git@github.com:BorgwardtLab/sepsis-challenge.git"
+      }
+    ],
+    "sources": [
+      [
+        "main.py",
+        "_sources/main_8f4078735c40114b6686002f3a2dfb42.py"
+      ]
+    ]
+  },
+  "heartbeat": "2019-08-19T17:33:25.727641",
+  "host": {
+    "ENV": {},
+    "cpu": "Intel(R) Xeon(R) CPU E5-2620 v4 @ 2.10GHz",
+    "gpus": {
+      "driver_version": "384.130",
+      "gpus": [
+        {
+          "model": "GeForce GTX 1080",
+          "persistence_mode": false,
+          "total_memory": 8114
+        },
+        {
+          "model": "GeForce GTX 1080",
+          "persistence_mode": false,
+          "total_memory": 8114
+        },
+        {
+          "model": "GeForce GTX 1080",
+          "persistence_mode": false,
+          "total_memory": 8114
+        },
+        {
+          "model": "GeForce GTX 1080",
+          "persistence_mode": false,
+          "total_memory": 8114
+        },
+        {
+          "model": "GeForce GTX 1080",
+          "persistence_mode": false,
+          "total_memory": 8114
+        },
+        {
+          "model": "GeForce GTX 1080",
+          "persistence_mode": false,
+          "total_memory": 8114
+        },
+        {
+          "model": "GeForce GTX 1080",
+          "persistence_mode": false,
+          "total_memory": 8114
+        },
+        {
+          "model": "GeForce GTX 1080",
+          "persistence_mode": false,
+          "total_memory": 8114
+        }
+      ]
+    },
+    "hostname": "bs-gpu07",
+    "os": [
+      "Linux",
+      "Linux-3.13.0-107-generic-x86_64-with-debian-jessie-sid"
+    ],
+    "python_version": "3.6.4"
+  },
+  "meta": {
+    "command": "fit_raw_tcn",
+    "options": {
+      "--beat_interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print_config": false,
+      "--priority": null,
+      "--queue": false,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [
+        "tcn_parameters.class_imbalance_parameter=0.1",
+        "L2_penalty=0.5",
+        "batch_size=200",
+        "learning_rate=0.0005"
+      ],
+      "help": false,
+      "with": true
+    }
+  },
+  "resources": [],
+  "result": 20,
+  "start_time": "2019-08-19T17:01:45.315559",
+  "status": "COMPLETED",
+  "stop_time": "2019-08-19T17:33:25.721342"
+}
